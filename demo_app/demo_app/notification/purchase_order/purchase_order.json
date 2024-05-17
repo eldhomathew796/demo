@@ -1,0 +1,32 @@
+{
+ "attach_print": 1,
+ "channel": "Email",
+ "condition": "",
+ "creation": "2024-05-08 15:23:49.530959",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Purchase Order",
+ "enabled": 1,
+ "event": "Save",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>Purchase Order Send ,Please Check</p>",
+ "message_type": "HTML",
+ "modified": "2024-05-09 12:57:09.692877",
+ "modified_by": "Administrator",
+ "module": "Demo App",
+ "name": "purchase order",
+ "owner": "Administrator",
+ "print_format": "Drop Shipping Format",
+ "recipients": [
+  {
+   "receiver_by_document_field": "custom_supplier_email"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "sender": "caramel",
+ "sender_email": "it@plantrich.com",
+ "subject": "purchase Order:{{doc.name}} Delivered"
+}

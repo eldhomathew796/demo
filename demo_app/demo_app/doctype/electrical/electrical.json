@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{materialpurchase}",
+ "creation": "2024-04-19 12:38:08.522533",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "wiring",
+  "testing",
+  "calibration",
+  "materialpuchase"
+ ],
+ "fields": [
+  {
+   "fieldname": "wiring",
+   "fieldtype": "Signature",
+   "label": "wiring"
+  },
+  {
+   "fieldname": "testing",
+   "fieldtype": "Barcode",
+   "label": "testing"
+  },
+  {
+   "fieldname": "calibration",
+   "fieldtype": "Attach Image",
+   "label": "calibration"
+  },
+  {
+   "fieldname": "materialpuchase",
+   "fieldtype": "Data",
+   "label": "materialpurchase"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-19 12:47:30.241764",
+ "modified_by": "Administrator",
+ "module": "Demo App",
+ "name": "electrical",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
